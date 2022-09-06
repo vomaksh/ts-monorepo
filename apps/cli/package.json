@@ -7,9 +7,13 @@
   "files": [
     "dist"
   ],
+  "bin": {
+    "cli": "./dist/main.js"
+  },
   "scripts": {
     "build": "pnpm tsc --build .",
-    "start": "node dist/main.js"
+    "start": "node dist/main.js",
+    "pkg": "pnpm build && pnpm dlx pkg . -o bin/app -t node16-linux-x64,node16-macos-x64,node16-win-x64"
   },
   "dependencies": {
     "@ts-setup/core": "workspace:*"
