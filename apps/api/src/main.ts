@@ -21,7 +21,7 @@ app.use(async (ctx, next) => {
 
 // response
 
-app.use(async ctx => {
+app.use(ctx => {
   ctx.body = greet('Zura Janai Katsura da');
 });
 

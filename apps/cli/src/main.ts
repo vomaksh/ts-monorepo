@@ -1,6 +1,6 @@
 import { greet } from '@ts-setup/core'
 
-const main = () => {
+const main = (): void => {
     const greeting = greet('Chintu')
     console.log(greeting)
 }

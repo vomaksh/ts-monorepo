@@ -1,13 +1,16 @@
 {
     "compilerOptions": {
-        "baseUrl": "./",
         "strict": true,
         "module": "esnext",
         "target": "esnext",
         "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
         "moduleResolution": "node",
         "paths": {
             "@ts-setup/core": ["packages/core"]
         }
     },
+    "exclude": ["node_modules"]
 }

@@ -1,3 +1,17 @@
 {
-  "extends": "next/core-web-vitals"
+    "extends": [
+        "next/core-web-vitals"
+    ],
+    "settings": {
+        "next": {
+            "rootDir": "apps/web"
+        }
+    },
+    "rules": {
+        "@next/next/no-html-link-for-pages": "error"
+    },
+    "ignorePatterns": [
+        ".next/",
+        "next-env.d.ts"
+    ]
 }
