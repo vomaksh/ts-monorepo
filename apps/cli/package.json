@@ -1,7 +1,7 @@
 {
-  "name": "@ts-setup/cli",
+  "name": "@ts-monorepo/cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI application with executable creation support",
   "type": "module",
   "main": "./dist/main.js",
   "files": [
@@ -16,12 +16,10 @@
     "pkg": "pnpm build && pnpm dlx pkg . -o bin/app -t node16-linux-x64,node16-macos-x64,node16-win-x64"
   },
   "dependencies": {
-    "@ts-setup/core": "workspace:*"
+    "@ts-monorepo/core": "workspace:*"
   },
   "devDependencies": {
     "typescript": "4.8.2"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC"
 }

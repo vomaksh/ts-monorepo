@@ -1,12 +1,18 @@
 {
-    "name": "ts-setup",
-    "version": "1.0.0",
-    "description": "",
+    "name": "ts-monorepo",
+    "version": "0.9.0",
+    "description": "Monorepo template for typescript project",
     "type": "module",
     "private": true,
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "monorepo",
+        "typescript",
+        "eslint",
+        "prettier",
+        "jest",
+        "pnpm"
+    ],
+    "license": "MIT",
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "lint": "eslint .",

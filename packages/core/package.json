@@ -1,7 +1,7 @@
 {
-  "name": "@ts-setup/core",
+  "name": "@ts-monorepo/core",
   "version": "1.0.0",
-  "description": "",
+  "description": "Core library",
   "type": "module",
   "main": "./dist/main.js",
   "scripts": {
@@ -10,7 +10,5 @@
   "devDependencies": {
     "typescript": "4.8.2"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC"
 }
