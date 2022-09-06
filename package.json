@@ -1,0 +1,14 @@
+{
+  "name": "ts-setup",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}

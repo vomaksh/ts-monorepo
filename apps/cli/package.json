@@ -1,0 +1,23 @@
+{
+  "name": "@ts-setup/cli",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/main.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pnpm tsc --build .",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "@ts-setup/core": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "4.8.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
