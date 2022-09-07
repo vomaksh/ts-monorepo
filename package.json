@@ -16,7 +16,8 @@
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "lint": "eslint .",
-        "test": "pnpm jest --passWithNoTests"
+        "test": "pnpm jest --passWithNoTests",
+        "format": "prettier --write \"packages/**/*.ts\" \"apps/**/*.ts\""
     },
     "devDependencies": {
         "@eslint/create-config": "^0.3.1",
