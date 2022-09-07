@@ -46,6 +46,7 @@ This monorepo contains 1 library as example. ``dist`` as output dir common for a
 ### Authors
 
 - Akshay ([iyorozuya](https://github.com/iyorozuya))
+- Abdul Rauf ([armujahid](https://github.com/armujahid))
 
 If you found any error or you want to contribute then please do.
 If you found this repo useful then please ⭐ this repo.
