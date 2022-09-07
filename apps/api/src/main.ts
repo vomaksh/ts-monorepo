@@ -1,4 +1,4 @@
-import { greet } from '@ts-setup/core';
+import { greet } from '@ts-monorepo/core';
 import Koa from 'koa';
 const app = new Koa();
 

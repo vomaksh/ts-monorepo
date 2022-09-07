@@ -1,4 +1,4 @@
-import { greet } from '@ts-setup/core'
+import { greet } from '@ts-monorepo/core'
 import { ReactElement } from 'react'
 
 const Home = (): ReactElement => {

@@ -9,7 +9,7 @@
         "sourceMap": true,
         "moduleResolution": "node",
         "paths": {
-            "@ts-setup/core": ["packages/core"]
+            "@ts-monorepo/core": ["packages/core"]
         }
     },
     "exclude": ["node_modules"]
