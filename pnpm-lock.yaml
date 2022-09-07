@@ -40,13 +40,13 @@ importers:
 
   apps/api:
     specifiers:
-      '@ts-setup/core': workspace:^1.0.0
+      '@ts-monorepo/core': workspace:^1.0.0
       '@types/koa': ^2.13.5
       '@types/node': ^18.7.15
       koa: ^2.13.4
       typescript: ^4.8.2
     dependencies:
-      '@ts-setup/core': link:../../packages/core
+      '@ts-monorepo/core': link:../../packages/core
       koa: 2.13.4
     devDependencies:
       '@types/koa': 2.13.5
@@ -55,16 +55,16 @@ importers:
 
   apps/cli:
     specifiers:
-      '@ts-setup/core': workspace:*
+      '@ts-monorepo/core': workspace:*
       typescript: 4.8.2
     dependencies:
-      '@ts-setup/core': link:../../packages/core
+      '@ts-monorepo/core': link:../../packages/core
     devDependencies:
       typescript: 4.8.2
 
   apps/web:
     specifiers:
-      '@ts-setup/core': workspace:*
+      '@ts-monorepo/core': workspace:*
       '@types/eslint': ^8
       '@types/node': ^18.7.15
       '@types/react': ^18.0.18
@@ -75,7 +75,7 @@ importers:
       react-dom: ^18.2.0
       typescript: 4.8.2
     dependencies:
-      '@ts-setup/core': link:../../packages/core
+      '@ts-monorepo/core': link:../../packages/core
       next: 12.2.5_biqbaboplfbrettd7655fr4n2y
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
