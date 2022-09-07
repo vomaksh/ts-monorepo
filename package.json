@@ -16,7 +16,7 @@
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "lint": "eslint .",
-        "test": "yarn jest --passWithNoTests"
+        "test": "pnpm jest --passWithNoTests"
     },
     "devDependencies": {
         "@eslint/create-config": "^0.3.1",
