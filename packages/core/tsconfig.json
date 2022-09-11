@@ -5,9 +5,7 @@
         "composite": true,
         "rootDir": "lib",
         "outDir": "dist/",
-        "esModuleInterop": true,
         "tsBuildInfoFile": "dist/.tsbuildinfo"
     },
-    "include": ["lib"],
-    "exclude": ["node_modules", "lib/**/*.spec.ts"]
+    "include": ["lib"]
 }

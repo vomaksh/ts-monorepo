@@ -1,14 +1,14 @@
 {
-  "name": "@ts-monorepo/core",
-  "version": "1.0.0",
-  "description": "Core library",
-  "type": "module",
-  "main": "./dist/main.js",
-  "scripts": {
-    "build": "pnpm tsc --build ."
-  },
-  "devDependencies": {
-    "typescript": "4.8.2"
-  },
-  "license": "ISC"
+    "name": "@ts-monorepo/core",
+    "version": "1.0.0",
+    "description": "Core library",
+    "type": "module",
+    "main": "./dist/main.js",
+    "scripts": {
+        "build": "pnpm tsc --build ."
+    },
+    "devDependencies": {
+        "typescript": "4.8.2"
+    },
+    "license": "ISC"
 }
