@@ -7,6 +7,7 @@ const config: Config = {
   testMatch: defaults.testMatch,
   preset: 'ts-jest',
   testEnvironment: 'node',
+  verbose: true
 };
 
 module.exports = config;

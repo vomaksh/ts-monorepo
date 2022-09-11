@@ -1,25 +1,25 @@
 {
-  "name": "@ts-monorepo/web",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "devDependencies": {
-    "@types/eslint": "^8",
-    "@types/node": "^18.7.15",
-    "@types/react": "^18.0.18",
-    "eslint": "8.22.0",
-    "eslint-config-next": "12.2.5",
-    "typescript": "4.8.2"
-  },
-  "dependencies": {
-    "@ts-monorepo/core": "workspace:*",
-    "@ts-monorepo/components": "workspace:*",
-    "next": "^12.2.5",
-    "next-transpile-modules": "^9.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "name": "@ts-monorepo/web",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "devDependencies": {
+        "@types/eslint": "^8",
+        "@types/node": "^18.7.15",
+        "@types/react": "^18.0.18",
+        "eslint": "8.22.0",
+        "eslint-config-next": "12.2.5",
+        "typescript": "4.8.2"
+    },
+    "dependencies": {
+        "@ts-monorepo/core": "workspace:*",
+        "@ts-monorepo/components": "workspace:*",
+        "next": "^12.2.5",
+        "next-transpile-modules": "^9.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
 }
