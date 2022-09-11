@@ -12,9 +12,5 @@
             "@ts-monorepo/core": ["./packages/core"],
             "@ts-monorepo/components": ["./packages/components"]
         }
-    },
-    "exclude": [
-        "node_modules",
-        "**/*.spec.ts"
-    ]
+    }
 }

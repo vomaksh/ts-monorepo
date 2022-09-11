@@ -1,11 +1,13 @@
 {
-    "extends": "../../tsconfig.json",
+    "extends": "../../tsconfig.build.json",
     "compilerOptions": {
         "baseUrl": "./",
         "composite": true,
         "rootDir": "lib",
         "outDir": "dist/",
+        "esModuleInterop": true,
         "tsBuildInfoFile": "dist/.tsbuildinfo"
     },
-    "include": ["lib"]
+    "include": ["lib"],
+    "exclude": ["node_modules", "lib/**/*.spec.ts"]
 }
