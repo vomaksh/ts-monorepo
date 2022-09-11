@@ -43,12 +43,9 @@ This monorepo contains has 3 apps as example. ``dist/`` as output dir is common 
 This monorepo contains 1 library as example. ``dist`` as output dir common for all libraries. ``lib/`` is where TS code exists.
 - ``core/`` - It contains a ``greet`` function which imported by ``api``, ``cli``, ``web`` apps for making hello world possible.
 
-### Authors
-
-- Akshay ([iyorozuya](https://github.com/iyorozuya))
-- Abdul Rauf ([armujahid](https://github.com/armujahid))
-
-If you found any error or you want to contribute then please do.
-If you found this repo useful then please ⭐ this repo.
+### Contribute
+- If you found this repo useful then please ⭐ this repo
+- If you found any error then please file an issue
+- PRs are welcome.
 
 Thank you :)
