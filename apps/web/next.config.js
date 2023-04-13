@@ -1,5 +1,5 @@
 const withTM = require('next-transpile-modules')([
-    '@ts-monorepo/components'
+    '@ts-monorepo/ui'
 ])
 
 module.exports = withTM({})

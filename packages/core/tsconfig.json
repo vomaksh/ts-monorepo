@@ -1,11 +1,5 @@
 {
-    "extends": "../../tsconfig.build.json",
-    "compilerOptions": {
-        "baseUrl": "./",
-        "composite": true,
-        "rootDir": "lib",
-        "outDir": "dist/",
-        "tsBuildInfoFile": "dist/.tsbuildinfo"
-    },
-    "include": ["lib"]
+    "extends": "@ts-monorepo/tsconfig/base.json",
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"]
 }

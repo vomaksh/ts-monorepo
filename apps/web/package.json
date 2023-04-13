@@ -11,12 +11,13 @@
         "@types/node": "^18.7.15",
         "@types/react": "^18.0.18",
         "eslint": "8.22.0",
-        "eslint-config-next": "12.2.5",
+        "eslint-config-nextjs": "workspace:*",
         "typescript": "4.8.2"
     },
     "dependencies": {
         "@ts-monorepo/core": "workspace:*",
-        "@ts-monorepo/components": "workspace:*",
+        "@ts-monorepo/tsconfig": "workspace:*",
+        "@ts-monorepo/ui": "workspace:*",
         "next": "^12.2.5",
         "next-transpile-modules": "^9.0.0",
         "react": "^18.2.0",

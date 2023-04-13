@@ -2,3 +2,10 @@ node_modules/
 .vscode/
 .idea/
 dist/
+
+.yarn/
+!.yarn/releases
+!.yarn/install-state.gz
+
+.turbo
+storybook-static

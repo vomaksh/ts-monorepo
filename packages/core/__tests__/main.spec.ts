@@ -1,4 +1,4 @@
-import { greet } from './main';
+import { greet } from '../src/main';
 
 test('prints Hello Chintu!', () => {
     expect(greet('Chintu')).toBe(`Hello Chintu!`);

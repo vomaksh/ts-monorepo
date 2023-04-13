@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-reactjs",
+  "packageManager": "yarn@3.4.1",
+  "type": "module",
+  "main": "index.cjs",
+  "dependencies": {
+    "@next/eslint-plugin-next": "^13.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-prettier": "^4.2.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.32.2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "exclude": ["node_modules", "__tests__", "vitest.config.ts", "dist/"],
+    "compilerOptions": {
+        "baseUrl": "src/",
+        "outDir": "dist/"
+    },
+    "ts-node": {
+        "swc": true,
+        "esm": true
+    }
+}

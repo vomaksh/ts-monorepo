@@ -1,0 +1,15 @@
+{
+    "extends": "./tsconfig.json",
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": [
+        "node_modules",
+        "__tests__",
+        "vitest.config.ts",
+        "tailwind.config.cjs",
+        "dist"
+    ],
+    "compilerOptions": {
+        "baseUrl": "src/",
+        "outDir": "dist/"
+    }
+}

@@ -5,7 +5,7 @@
     "main": "dist/main.js",
     "type": "module",
     "scripts": {
-        "build": "pnpm tsc --build .",
+        "build": "tsc --build tsconfig.build.json",
         "start": "node dist/main.js"
     },
     "license": "ISC",
@@ -15,7 +15,8 @@
         "typescript": "^4.8.2"
     },
     "dependencies": {
-        "@ts-monorepo/core": "workspace:^1.0.0",
+        "@ts-monorepo/core": "workspace:*",
+        "@ts-monorepo/tsconfig": "workspace:*",
         "express": "^4.18.1"
     }
 }

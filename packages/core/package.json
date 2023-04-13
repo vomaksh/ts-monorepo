@@ -5,10 +5,12 @@
     "type": "module",
     "main": "./dist/main.js",
     "scripts": {
-        "build": "pnpm tsc --build ."
+        "build": "tsc --build tsconfig.build.json"
+    },
+    "dependencies": {
+        "@ts-monorepo/tsconfig": "workspace:*"
     },
     "devDependencies": {
         "typescript": "4.8.2"
-    },
-    "license": "ISC"
+    }
 }

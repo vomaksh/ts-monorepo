@@ -1,0 +1,6 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "API",
+  "extends": "./base.json",
+  "exclude": ["node_modules", "test", "**/*.spec.ts", "**/*.test.ts", "bin"]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@ts-monorepo/storybook",
+  "packageManager": "yarn@3.5.0",
+  "dependencies": {
+    "@ts-monorepo/ui": "workspace:*"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.4",
+    "@storybook/addon-interactions": "^7.0.4",
+    "@storybook/addon-links": "^7.0.4",
+    "@storybook/blocks": "^7.0.4",
+    "@storybook/react": "^7.0.4",
+    "@storybook/react-webpack5": "^7.0.4",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.4"
+  },
+  "scripts": {
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build"
+  }
+}
